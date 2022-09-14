@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="color-scheme" content="dark"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hexa</title>
+    <link rel = "icon" href ="images/Hexa Logoicon.svg" type = "image/x-icon">
+</head>
+<body>
+      <!-- Header -->
+      <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero">
+                <div class="logo"><img src="images/Logo.svg"></div>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                <li><a href="#hero" data-after="Home">Home</a></li>
+                <li><a href="#explore" data-after="explore">Explore</a></li>
+                <li><a href="#marketplace" data-after="marketplace">Marketplace</a></li>
+                <li><a href="#create" data-after="Create">Create</a></li>
+              </ul>
+            </div>
+            <div class="sebtn">
+            <a href=""><img src="images/searchicn.svg"></a>
+            <a href=""><button class="connectwall">Connect Wallet</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Header -->
+
+  <!-- -----Hero Section----- -->
+  <section id="hero">
+<div class="hero">
+  <div class="row">
+    <div class="col1">
+      <h1>Explore, Collect and <br> Sell Exclusive NFT <br>
+        <span>Avatars</span></h1>
+      <p>Digital Marketplace for buying and selling <br> amazing NFT  Profile Pictures (<span>PFPs</span>).</p>
+        <button class="expbtn">Explore</button>
+        <button class="crtbtn">Create</button>
+
+        <div class="details">
+            <div class="detail1">
+                <h3>85k+</h3>
+                <h5>Artworks</h5>
+            </div>
+            <div class="detail1">
+                <h3>34k+</h3>
+                <h5>Auctions</h5>
+            </div>
+            <div class="detail1">
+                <h3>30k+</h3>
+                <h5>Artists</h5>
+            </div>
+            
+        </div>
+    </div>
+    <div class="col2">
+      <img src="images/heroimg.svg">
+        <div class="box">
+            <img src="images/blackpic.svg">
+            <div class="bx1">
+                <h2>HAPE#383</h2>
+                <h4>HAPE PRIME <img src="images/verifyicn.svg"></h4>
+            </div>
+            <div class="bx1">
+                <h2>1.43ETH</h2>
+                <h4>Current Bid</h4>
+            </div>
+            <div class="bx1">
+                <p id="countdwn"></p>
+                <h4>Remaining Time</h4>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+
+<!-- -----EndHero Section----- -->
+
+<!-- ---------TOP COLLECTION-------- -->
+<section id="explore">
+<div class="topcoll">
+    <div class="tophead">
+        <h1>Top Collections</h1>
+        <button class="ethbtn" ><img src="images/ethlogo.svg"></button>
+        <button class="solbtn"><img src="images/sollogo.svg"></button>
+        <button class="kebabbtn"><img src="images/kebab-menu.svg"></button>
+        <div class="dropdown">
+            <button class="dropbtn">Today <img src="images/drpdwnarrow.svg" width="15px"></button>
+            <div class="dropdown-content">
+                <a href="">Yesterday</a>
+                <a href="">Last Week</a>
+                <a href="">Last Month</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="arts">
+        <img src="images/pic1.svg">
+        <img src="images/pic2.svg">
+        <img src="images/pic3.svg">
+        <img src="images/pic4.svg">
+    </div>
+</div>
+</section>
+
+
+
+<!-- ---------END TOP COLLECTION-------- -->
+
+<!-- ----------Explore Section------------- -->
+<section id="marketplace">
+<div class="marketplace">
+    <div class="row">
+        <div class="col4">
+            <img src="images/NFTSavatars_st.svg">
+        </div>
+        <div class="col3">
+            <h1>The <span>Leading</span> Marketplace For <br> NFT <span>Avatars</span></h1>
+            <p>HEXA is Lorem Ipsum Sit Dolor dolor sir ipsum rem <br> 
+                NFTs Digital Art. Lorem Ipsum Sit Dolor dolor sir ipsum <br> 
+                rem NFTs Digital ArtIpsum Sit Dolor dolor sir ipsum <br> 
+                rem NFTs Digital. HEXA is Lorem Ipsum Sit Dolor dolor <br> 
+                sir ipsum rem NFTs Digital Art. Lorem Ipsum Sit Dolor <br> 
+                dolor sir ipsum rem.</p>
+                <button class="ExplMarketbtn">Explore Marketplace</button>
+        </div>
+    </div>
+</div>
+
+<div class="livenft">
+<h3>Live NFT Drops <img src="images/firelogo.svg" width="29.6px"></h3>
+<div class="dropdown">
+    <button class="dropbtn">Today <img src="images/drpdwnarrow.svg" width="15px"></button>
+    <div class="dropdown-content">
+        <a href="">Yesterday</a>
+        <a href="">Last Week</a>
+        <a href="">Last Month</a>
+    </div>
+</div>
+</div>
+
+
+<div class="nftsbg">
+    <div class="nfts">
+        <div class="nft1">
+            <img src="images/livenft1.svg">
+            <div class="auction">
+            <div class="TimeAuc">
+                <img src="images/timerlogo.svg" width="20px">
+                <p id="countdwn1"></p>
+            </div>
+            <button class="bidbtn"><img src="images/bidbtn.svg" width="10px"> Place Bid</button>
+        </div>
+        </div>
+        <div class="nft1">
+            <img src="images/livenft2.svg">
+            <div class="auction">
+            <div class="TimeAuc">
+                <img src="images/timerlogo.svg" width="20px">
+                <p id="countdwn2"></p>
+            </div>
+            <button class="bidbtn"><img src="images/bidbtn.svg" width="10px"> Place Bid</button>
+        </div>
+        </div>
+        <div class="nft1">
+            <img src="images/livenft3.svg">
+            <div class="auction">
+            <div class="TimeAuc">
+                <img src="images/timerlogo.svg">
+                <p id="countdwn3"></p>
+            </div>
+            <br>
+            <button class="bidbtn"><img src="images/bidbtn.svg" width="10px"> Place Bid</button>
+        </div>
+        </div>
+        <br>
+        <div class="nft1">
+            <img src="images/livenft4.svg">
+            <div class="auction">
+            <div class="TimeAuc">
+                <img src="images/timerlogo.svg">
+                <p id="countdwn4"></p>
+            </div>
+            <button class="bidbtn"><img src="images/bidbtn.svg" width="10px"> Place Bid</button>
+        </div>
+        </div>
+        <div class="nft1">
+            <img src="images/livenft5.svg">
+            <div class="auction">
+            <div class="TimeAuc">
+                <img src="images/timerlogo.svg">
+                <p id="countdwn5"></p>
+            </div>
+            <button class="bidbtn"><img src="images/bidbtn.svg" width="10px"> Place Bid</button>
+        </div>
+        </div>
+        <div class="nft1">
+            <img src="images/livenft6.svg">
+            <div class="auction">
+            <div class="TimeAuc">
+                <img src="images/timerlogo.svg">
+                <p id="countdwn6"></p>
+            </div>
+            <button class="bidbtn"><img src="images/bidbtn.svg" width="10px"> Place Bid</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<button class="loadbtn">Load More</button>
+</section>
+
+<!-- ---------- End Explore Section------------- -->
+
+<div class="TopSellers">
+        <div class="topsell">
+            <h1>Top Sellers</h1>
+            <button class="ethbtn" ><img src="images/ethlogo.svg"></button>
+            <button class="solbtn"><img src="images/sollogo.svg"></button>
+            <button class="kebabbtn"><img src="images/kebab-menu.svg"></button>
+            <div class="dropdown">
+                <button class="dropbtn">Today <img src="images/drpdwnarrow.svg" width="15px"></button>
+                <div class="dropdown-content">
+                    <a href="">Yesterday</a>
+                    <a href="">Last Week</a>
+                    <a href="">Last Month</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sellers">
+            <div class="sellrow">
+                <img src="images/sell1.svg" width="400px">
+                <img src="images/sell4.svg" width="400px">
+                <img src="images/sell7.svg" width="400px">
+            </div>
+            <div class="sellrow">
+                <img src="images/sell2.svg" width="400px">
+                <img src="images/sell5.svg" width="400px">
+                <img src="images/sell8.svg" width="400px">
+            </div>
+            <div class="sellrow">
+                <img src="images/sell3.svg" width="400px">
+                <img src="images/sell6.svg" width="400px">
+                <img src="images/sell9.svg" width="400px">
+            </div>
+            <button class="loadbtn">Load More</button>
+        </div>
+
+</div>
+
+
+
+<section id="create"> 
+    <div class="createnft">
+        <h1>Create and Sell your own NFT</h1>
+        <div class="set">
+            <div class="set1">
+                <img src="images/wallet_icon.svg">
+                <div class="createtxt">
+                <h3>Set Up Your Crypto <br> Wallet</h3>
+                <p>Create your collection, Add social <br> 
+                    links, profile & banner images and <br> set a secondary sales 
+                    fee</p>
+                </div>
+            </div>
+            <div class="set1">
+                <img src="images/designtool_icon.svg">
+                <div class="createtxt">
+                <h3>Create Your Collection</h3>
+                <p>On Hexa, go to your profile and <br> click “My Collection” 
+                    Create your <br> collection, Add social links, profile, 
+                    <br> banner images</p>
+                </div>
+            </div>
+            <div class="set1">
+                <img src="images/imageicon.svg">
+                <div class="createtxt">
+                <h3>Upload Your NFTs</h3>
+                <p>Hexa supports JPG, PNG, GIF, TIFF <br> formats. The max 
+                    file size is 100MB. <br> Click on the “Add New Items” <br> button.</p>
+                </div>
+            </div>
+            <div class="set1">
+                <img src="images/offer_icon.svg">
+                <div class="createtxt">
+                <h3>List Your NFTs For Sale</h3>
+                <p>Upload your image, then pick the <br> available supply. Then you 
+                    <br> are done. Definitely, you are the owner <br> of an NFT.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="getstartbtn">Get Started Now</button>
+</section>
+
+
+
+<footer class="footer">
+<div class="footrow">
+    <div class="ftrow1">
+        <img src="images/logo_dark.svg">
+        <p>The world’s largest digital marketplace <br>
+            for crypto profile pictures  Non - Fungible <br>
+            Tokens (NFTs). Buy, sell and explore amazing <br>
+            PFPs.</p>
+        <div class="socials">
+            <img src="images/twitter_icon.svg">
+            <img src="images/IG_icon.svg">
+            <img src="images/discord_icon.svg">
+            <img src="images/youtube_icon.svg">
+            <img src="images/mail_icon.svg">
+        </div>
+    </div>
+    <div class="ftrow2">
+        <h3>Marketplace</h3>
+        <ul>
+            <li>Explore</li>
+            <li>All NFTs</li>
+            <li>How It Works </li>
+            <li>Top Sellers</li>
+            <li>Collections</li>
+        </ul>
+    </div>
+    <div class="ftrow2">
+        <h3>Company</h3>
+        <ul>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Partners</li>
+            <li>Blog</li>
+            <li>Help Center</li>
+        </ul>
+    </div>
+        <div class="ftrow3">
+            <h3>Get Latest Updates</h3>
+            <p>Join our mailing list and get notified about <br> 
+                latest news, live bids, NFT Projects.</p>
+            <input type="text" name="Enter your email" placeholder="Info@YourEmail.com ">
+            <button class="joinbtn">Join List</button>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="copyright">
+    <p>Copyright 2022-HEXA. All rights reserved</p>
+    <div class="copy1">
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+    </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
