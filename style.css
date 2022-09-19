@@ -24,7 +24,7 @@
 #header .header {
 	min-height: 8vh;
 	background-color:;
-    transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
 }
 #header .nav-bar {
 	display: flex;
@@ -279,7 +279,9 @@
   
   @media (min-width: 768px) {
     .expbtn {
-      padding: 12px 50px;
+      padding: 12px 53px;
+      /* font-size: 12px;
+      border-radius: 2px; */
     }
   }
   /* ----------END EXPLORE BTN----------- */
@@ -440,6 +442,7 @@ h4{
     box-shadow: #fff 3px 3px 0 0,#000 3px 3px 0 0.5px;
     color: #Fff;
     cursor: pointer;
+    padding: 6px 5px;
 }
   
   .solbtn:focus {
@@ -1080,7 +1083,7 @@ h4{
     box-shadow: #fff 3px 3px 0 0,#000 3px 3px 0 0.5px;
     color: #FF521B;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     margin: 0 5px 10px 0;
 }
@@ -1111,57 +1114,7 @@ h4{
 
 
 
-
-
 /* ------ END FOOTER----------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1179,10 +1132,6 @@ h4{
 
 
 
-
-
-
-
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
@@ -1192,9 +1141,9 @@ h4{
 	#header .nav-list ul {
 		position: initial;
 		display: block;
-        height: auto;
-        margin-left: 120px;
-        width: fit-content;
+    height: auto;
+    margin-left: 120px;
+    width: fit-content;
 		background-color: transparent;
 		transition: 0.5s ease-in-out;
 
@@ -1217,11 +1166,161 @@ h4{
 
 
 /* Media Query For Mobile */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     /* header */
-    #header .nav-list ul: {
-        color: red;
-
+    #header .logo{
+      margin-left: 3px;
     }
+    #header .header {
+      min-height: 8vh;
+      background-color:;
+      transition: 0.3s ease background-color;
+    }
+    #header .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+      max-width: 768px;
+      padding: 0px;
+      margin-top: 0px;
+    }
+    #header .nav-bar .sebtn {
+        display: none;
+    }
+    #header .hamburger {
+      margin-right: 34px;
+    }
+
+/* ----------HERO---------- */
+
+    .hero{
+      background-size: 1500px;
+      background-color: white;
+    }
+    .row{
+      transition: 0.5s ease-in-out;
+      flex-direction: column;
+      align-items: center;
+    }
+    .row .col1{
+      margin-left: 1px;
+      margin-right: 21px;
+      margin-top: 80px;
+      justify-content: center;
+    }
+    .col1 h1{
+      font-size: 29px;
+      text-align: center;
+    }
+    .col1 p{
+      font-size: 15px;
+      margin-top: -10px;
+    }
+    .expbtn {
+      padding: 9px 39px;
+      font-size: 15px;
+      border-radius: 7px;
+    }
+    .crtbtn{
+      padding: 9px 39px;
+      font-size: 15px;
+      border-radius: 7px;
+    }
+    .col1 .details{
+      max-width: 270px;
+      margin-left: 1px;
+  }
+ 
+  .col1 .details h3{
+      color: #000;
+      font-size: 23px;
+      margin-top: 40px;
+  }
+  .col1 .details h5{
+      color: #FF521B;
+      font-size: 15px;
+  }
+    .row .col2{
+      margin-top: 40px;
+      margin-left: 1px;
+      margin-right: 25px;
+    }
+    .col2 img{
+      width: 320px;
+      margin-bottom: 10px;
+    }
+    .col2 .box{
+    border-radius: 10px;
+    width: 330px;
+    height: 70px;
+    }
+    .col2 .box img{
+      width: 36px;
+    }
+    .col2 .box .bx1 h2{
+      font-size: 13px;
+    }
+    .col2 .box .bx1 h4{
+      font-size: 10px;
+    }
+    .col2 .box .bx1 img{
+        width: 10px;
+    }
+    .col2 .box .bx1 #countdwn{
+      font-size: 13px;
+    }
+/* ---------EXPLORE--------- */
+.topcoll{
+  background-size: 160px;
+  background-position-y: center;
+  height: 580px;
+}
+
+.tophead{
+  margin: 40px 20px 0 0;
+  flex-direction: column;
+}
+.tophead h1{
+  font-size: 28px;
+}
+.tophead .currency{
+  margin-top: 5px;
+}
+.tophead .currency .ethbtn{
+  padding: 5px;
+}
+.tophead .currency .solbtn{
+  padding: 9px;
+}
+.tophead .currency .kebabbtn{
+  margin-top: 5px;
+  padding: 7px;
+}
+.tophead .dropdown{
+  float: none;
+  margin: 50px 0px 0 10px;
+  border-color: #000;
+}
+.tophead .dropdown .dropbtn{
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 14px 120px;
+    margin: 0;
+}
+.dropdown-content {
+  background-color: #ffffee;
+  width: 320px;
+}
+.topcoll .arts{
+  display: flex;
+  margin: 20px 20px;
+  
+  
+}
+.topcoll .arts img{
+  width: 300px;
 
 }
