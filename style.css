@@ -7,6 +7,7 @@
     scroll-behavior: smooth;
 }
 
+
 /* body{
 } */
 
@@ -753,6 +754,47 @@ h4{
   gap: 40px;
   margin: 50px 120px;
 }
+.sellrow1{
+  display: flex;
+  gap: 40px;
+  margin: 50px 120px;
+}
+
+.loadmbtn{
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: #fff 3px 3px 0 0,#000 3px 3px 0 0.5px;
+  color: #Fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 50px 690px;
+}
+
+.loadmbtn:focus {
+  text-decoration: none;
+}
+
+.loadmbtn:hover {
+  text-decoration: none;
+}
+
+.loadmbtn:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.loadmbtn:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .loadmbtn {
+    padding: 12px 40px;
+  }
+}
 
 
 /* --------CREATE NFT-------- */
@@ -1047,7 +1089,7 @@ h4{
 }
 .ftrow3 input{
     margin: 15px 0;
-    background-color: #000;
+    background-color: #fff;
     border-radius: 11px;
     border: 2px solid #FF521B;
     box-sizing: border-box;
@@ -1173,7 +1215,6 @@ h4{
     }
     #header .header {
       min-height: 8vh;
-      background-color:;
       transition: 0.3s ease background-color;
     }
     #header .nav-bar {
@@ -1512,7 +1553,7 @@ h4{
     border: 2px solid #000;
     border-radius: 8px;
     padding: 14px 110px;
-    margin: 0;
+    margin: 0 0 25px 0;
     align-items: center;
 }
 .dropdown-content {
@@ -1522,20 +1563,135 @@ h4{
 .sellers{
   display: flex;
   flex-direction: column;
+}
+.sellrow img{
+  justify-content: center;
+  width: 300px;
+}
+.sellrow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 10px;
+
+}
+.sellrow1{
+  display: none;
+}
+.loadmbtn{
+    font-size: 15px;
+    margin: 20px 120px;
+    padding: 6px 14px;
+    border-radius: 7px;
+}
+
+/* ----------CREATE NFT------------- */
+.createnft{
+  margin: 50px 10px;
+}
+.createnft h1{
+  padding: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+.createnft .set{
+  flex-direction: column;
   margin: 0;
+}
+.set1 img{
+  width: 100px;
+  height: 100px;
+}
+.set1 .createtxt{
+  width: 330px;
+  height: 265px;
+}
+.set1  h3{
+  margin-top: 75px;
+  margin-bottom: 6px;
+}
+.getstartbtn{
+    margin: 20px 100px;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+/* ---------FOOTER--------- */
+.footer{
+  display: nne;
+  height: 820px;
+  
+}
+.footrow{
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0;
+}
+.ftrow3{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+.ftrow3 h3{
+  font-size: 22px;
+  margin: 20px 0;
+  text-align: center;
+}
+.ftrow3 p{
+  text-align: center;
+  margin-top: 0;
+}
+.joinbtn{
+  margin: 0 60px 20px;
+  padding: 10px 20px;
+}
+.ftrow2{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+
+}
+.ftrow2 ul{
+  display: none;
+}
+.ftrow1{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 155px;
+  text-align: center;
+  margin-top: 5px;
+
+}
+.copyright{
+  display: none;
 }
 
 
 
 
 
+/* .ftrow1{
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+} */
 
 
 
 
 
-
-
+.footer hr {
+  border: none;
+  background: #fff;
+  height: 1.4px;
+  margin: 25px 20px 0;
 
 }
 
