@@ -54,7 +54,7 @@ function reveal() {
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 17, 2023 12:00:00").getTime();
+var countDownDate = new Date("Feb 27, 2023 12:00:00").getTime();
 
 // Update the count down every 1 second
 let x;
