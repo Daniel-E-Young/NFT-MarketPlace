@@ -76,7 +76,7 @@
     text-align: center;
 }
 #header .nav-list ul img{
-    width: 34px;
+    width: 32px;
     margin-top: 7px;
     margin-left: 10px;
     text-decoration: none;
@@ -242,7 +242,7 @@
     font-size: 35px;
     margin-top: 55px;
 }
-.col1 .details h5{
+.col1 .details h1{
     color: #FF521B;
     font-size: 19px;
 }
