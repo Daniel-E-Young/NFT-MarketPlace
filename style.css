@@ -281,8 +281,8 @@
   @media (min-width: 768px) {
     .expbtn {
       padding: 12px 53px;
-      /* font-size: 12px;
-      border-radius: 2px; */
+      font-size: 12px;
+      border-radius: 2px;
     }
   }
   /* ----------END EXPLORE BTN----------- */
