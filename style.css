@@ -269,7 +269,7 @@
   }
 
   .expbtn:active {
-    box-shadow: rgba(1, 0, 0, .125) 0 3px 5px inset;
+    box-shadow: rgba(2, 0, 0, .125) 0 3px 5px inset;
     outline: 0;
   }
 
